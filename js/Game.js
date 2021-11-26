@@ -154,8 +154,8 @@ class Game {
           cars[index - 1].changeImage("blast");
           cars[index - 1].scale = 0.3;
         }
-        cars[index - 1].position.x = x;
-        cars[index - 1].position.y = y;
+        cars[index - 1].positionX = x;
+        cars[index - 1].positionY = y;
 
         if (index === player.index) {
           stroke(10);
